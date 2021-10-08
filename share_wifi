@@ -1,4 +1,5 @@
 #!/bin/bash
+green='\033[1;32m'
 clear
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "\E[41;1;37m      • COMPARTILHAR VIA WIFI • \E[0m"
@@ -8,13 +9,16 @@ echo -e
 echo -e "\033[1;32mLigue seu Roteador Wifi\033[0m"
 sleep 8s
 echo -e
+read -p "$(echo -e $green"Digite sua porta: "$sc)" port
+sleep 3s
+clear
 echo -e "\033[1;32mIniciando Compartilhamento via wifi...\033[0m"
 sleep 3s
 echo -e
 clear
-echo -e "\033[1;32mCompartilhamento Iniciado (https://192.168.43.1:8080)\033[0m"
+echo -e "\033[1;32mCompartilhamento Iniciado 192.168.43.1:$port\033[0m"
 echo -e
-python2 -m SimpleHTTPServer 8080
+python2 -m SimpleHTTPServer $port
 clear
 echo -e "\033[1;32mParando Compartilhamento...\033[0m"
 sleep 3s
