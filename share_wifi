@@ -1,5 +1,6 @@
 #!/bin/bash
 green='\033[1;32m'
+sc='\033[0m'
 clear
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "\E[41;1;37m      • COMPARTILHAR VIA WIFI • \E[0m"
