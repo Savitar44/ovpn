@@ -17,6 +17,6 @@ read option
    clear
    exit
    ;;
-   (*) echo -e "\033[1;31mOpção inválida\033[0m"
+   (*) echo -e "\033[1;31mOpção inválida! \033[0m"
 
 esac
