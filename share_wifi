@@ -1,0 +1,21 @@
+#!/bin/bash
+clear
+echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "\E[41;1;37m      • COMPARTILHAR VIA WIFI • \E[0m"
+echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+sleep 2s
+echo -e
+echo -e "\033[1;32mLigue seu Roteador Wifi\033[0m"
+sleep 8s
+echo -e
+echo -e "\033[1;32mIniciando Compartilhamento via wifi...\033[0m"
+sleep 3s
+echo -e
+clear
+echo -e "\033[1;32mCompartilhamento Iniciado (https://192.168.43.1:8080)\033[0m"
+echo -e
+python2 -m SimpleHTTPServer 8080
+clear
+echo -e "\033[1;32mParando Compartilhamento...\033[0m"
+sleep 3s
+bash menu
