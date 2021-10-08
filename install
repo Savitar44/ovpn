@@ -1,0 +1,24 @@
+#!/bin/bash
+blue='\033[0:34m'
+red='\033[1;31m'
+green='\033[1;32m'
+sc='\033[0m'
+clear
+echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "\E[41;1;37m        • INSTALAÇÃO SCRIPT •     \E[0m"
+echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+sleep 5s
+clear
+echo -e "${red}Instalando Python2...${sc}
+sleep 3s
+echo -e
+pkg install python2
+clear
+echo -e "${red}Finalizando instalação...${sc}"
+sleep 3s
+clear
+echo -e "${blue}Script Instalado com Sucesso! ${sc}"
+echo -e
+echo -e "${green}Digite [ bash menu ] nas próximas vezes para executar o script! ${sc}"
+sleep 3s
+curl -sO https://raw.githubusercontent.com/Savitar44/ovpn/main/menu && bash menu
