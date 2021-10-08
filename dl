@@ -3,5 +3,5 @@ clear
 cd /storage
 cd emulated
 cd 0
-read -p "Digite seu link: " $link
+read -p "Digite seu link: " link
 youtube-dl -f 18 $link
