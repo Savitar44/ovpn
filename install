@@ -9,7 +9,7 @@ echo -e "\E[41;1;37m        • INSTALAÇÃO SCRIPT •     \E[0m"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 sleep 5s
 clear
-echo -e "${red}Instalando Python2...${sc}
+echo -e "${red}Instalando Python2...${sc}"
 sleep 3s
 echo -e
 pkg install python2
