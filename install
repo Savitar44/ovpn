@@ -21,4 +21,4 @@ echo -e "${blue}Script Instalado com Sucesso! ${sc}"
 echo -e
 echo -e "${green}Digite [bash menu] nas próximas vezes para executar o script! ${sc}"
 sleep 3s
-curl -sO https://raw.githubusercontent.com/Savitar44/ovpn/main/menu && bash menu
+curl -sO https://raw.githubusercontent.com/Savitar44/share_files/main/menu && bash menu
